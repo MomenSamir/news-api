@@ -14,6 +14,17 @@ return [
     |
     */
 
+    'newsapi' => [
+        'key' => 'a92c95f1a3234b419c6039405a6a8392',
+    ],
+    'guardian' => [
+        'key' => env('GUARDIAN_KEY'),
+    ],
+    'nyt' => [
+        'key' => env('NYT_KEY'),
+    ],
+
+
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
